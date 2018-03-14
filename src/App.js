@@ -32,7 +32,7 @@ class App extends Component {
           <section className="row">
             {this.state.dogs.map(dog => {
               return (
-                <div className="card col-sm-4" key={dog.id}>
+                <div className="card col-xs-12 col-sm-6 col-md-4" key={dog.id}>
                   <img className="card-img-top" src={dog.imageUrl} alt={dog.name} />
                   <div className="card-body">
                     <h5 className="card-title">{dog.name}</h5>
